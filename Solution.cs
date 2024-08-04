@@ -13,10 +13,10 @@ public class Solution
         {
             total_1s += value;
         }
-        return calculateMinSwaps(total_1s, input);
+        return CalculateMinSwaps(total_1s, input);
     }
 
-    private int calculateMinSwaps(int total_1s, int[] input)
+    private int CalculateMinSwaps(int total_1s, int[] input)
     {
         int count_0s = 0;
         int minSwaps = total_1s;
