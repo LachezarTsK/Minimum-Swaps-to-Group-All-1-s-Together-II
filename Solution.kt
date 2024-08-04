@@ -22,7 +22,7 @@ class Solution {
         var backPosition = 0
 
         while (frontPosition < 2 * input.size) {
-            count_0s += input[frontPosition % numberOfElements] xor 1;
+            count_0s += input[frontPosition % numberOfElements] xor 1
             ++frontPosition
             if (frontPosition - backPosition < total_1s) {
                 continue
